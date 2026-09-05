@@ -566,5 +566,3 @@ function AppContent() { return <AppInner />; }
 export default function App() {
   return <AuthProvider><AppContent /></AuthProvider>;
 }
-
-export default App
